@@ -4,20 +4,20 @@ let [p,b,c,s] = pokeData();
 
 //     // Pikachu says hello to Bulbsaur
 
- function saysHello() {
-     console.log(`${p.name} says hello to ${b.name}`);
+ function saysHello(poke1, poke2) {
+     console.log(`${poke1.name} says hello to ${poke2.name}`);
  }
 
- saysHello();
+ saysHello(s, b);
 
 
 
 // I want you to make a battle function where one pokemon does one of it's attacks, and that actually affects the HP (health points) of the other pokemon
 
 
-// function bigwar() {
+function bigwar() {
 
-// }
+}
 
 
 // add a method to one of the pokemon, to have it do something creative
